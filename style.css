@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+}
+
+.black-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: papayawhip; */
+}
+
+.main{
+    background: black;
+    height: 400px;
+    width: 370px;
+    border-radius: 10px;
+}
+
+.first-star{
+    margin: 16px;
+}
+
+.content-box{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.init{
+    margin: 20px;
+    background: rgb(43, 42, 40);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wording{
+   /* background: peachpuff; */
+   margin: 18px;
+   padding: 8px;
+}
+
+h2{
+    margin: 1px;
+    padding: 8px;
+}
+
+.words{
+    margin: 1px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-group{
+    margin: 20px;
+    padding: 3px;
+    /* background: burlywood; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.circle-star{
+    background: rgb(43, 42, 40);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 290px;
+    background: rgb(234, 156, 39);
+}
